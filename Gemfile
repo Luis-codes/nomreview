@@ -69,3 +69,5 @@ end
 
 gem 'jquery-rails', '~> 4.4'
 gem 'simple_form', '~> 5.0', '>= 5.0.3'
+gem 'will_paginate', '~> 3.1.1'
+gem 'will_paginate-bootstrap' 
