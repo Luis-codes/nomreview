@@ -38,6 +38,28 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.3px;
 }
 
-.pagination {
-  border: 1px black solid;
+footer{
+  background-color: #38372d;
+  color: #fff;
 }
+
+.footer-container {
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer i {
+  margin: 0 10px;
+  font-size: 1.3rem;
+}
+
+.heart-emoji {
+  font-size: 0.6rem;
+  position: absolute;
+  right: 3px;
+}
+
+/*.pagination {
+  border: 1px black solid;
+}*/
