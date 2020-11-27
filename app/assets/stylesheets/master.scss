@@ -1,5 +1,11 @@
 @import "bootstrap";
 
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
 /* blue color background hex: #62b8f5; */
 
 body {
@@ -38,14 +44,19 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.3px;
 }
 
+.content {
+  min-height: 100%;
+
+}
+
 footer{
   background-color: #38372d;
   color: #fff;
+ /* height: 50px;*/
 }
 
 .footer-container {
   padding: 30px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -58,6 +69,7 @@ footer i {
   font-size: 0.6rem;
   position: absolute;
   right: 3px;
+  margin-top: 46px;
 }
 
 /*.pagination {

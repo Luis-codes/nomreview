@@ -11,7 +11,7 @@
   </head>
 
   <body>
-
+      <div class="content">
         <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,14 +28,16 @@
             </ul>
           </div>
         </nav>
-    <%= yield %>
-    <footer class="footer mt-auto py-3">
-      <div class="container footer-container">
+        <%= yield %>
+      </div>
+
+    <footer>
+      <div class="footer-container">
         <i>Twiter</i>
         <i>&copy;2020</i>
         <i>Instagram</i>
+        <span class="heart-emoji">Made with &#128151</span>
       </div>
-      <p class="heart-emoji">Made with &#128151</p>
     </footer>
 
   </body>
