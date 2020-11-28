@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 
 html, body {
   padding: 0;
@@ -9,7 +10,7 @@ html, body {
 /* blue color background hex: #62b8f5; */
 
 body {
-  background-color: white;
+  background-color: #fff;
   color: #fff;
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
@@ -30,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 15px;
   padding: 20px;
   border-radius: 6px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar {
@@ -57,9 +59,9 @@ footer i {
 }
 
 footer i:hover {
+  transition: all 1s;
   transform: scale(1.5);
 }
-
 
 .heart-emoji {
   font-size: 0.6rem;
@@ -77,12 +79,12 @@ footer i:hover {
   background-color: #292b2c
 }
 
+.page-item.active .page-link {
+  background-color: #FFFFFF80; 
+  color: #fff !important;
+  border: 1px solid #292b2c;
+}
+
 img {
   height: 100px;
 }
-
-/*footer > div > a {
-  color: #ccc;
-  font-size: 1.3rem;
-}*/
-
