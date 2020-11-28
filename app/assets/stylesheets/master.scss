@@ -5,6 +5,7 @@ html, body {
   padding: 0;
   margin: 0;
   height: 100%;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* blue color background hex: #62b8f5; */
@@ -36,6 +37,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
   box-shadow: 0px 1px 3px #2a2a2a;
+}
+
+.navbar-toggler {
+  bottom: 35% !important;
+}
+
+@media(max-width: 991px) {
+  .sign-button {
+    position: inherit;
+  }
 }
 
 footer{
@@ -87,4 +98,8 @@ footer i:hover {
 
 img {
   height: 100px;
+}
+
+.form-check-input {
+  margin-left: 0;
 }

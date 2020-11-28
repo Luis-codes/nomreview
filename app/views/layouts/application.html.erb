@@ -18,7 +18,7 @@
           </button>
           <a href="/"><%= image_tag("NomView.png")%></a>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+            <ul class="navbar-nav mt-2 mt-md-0">
               <li class="nav-item">
                 <%= link_to new_place_path, class: 'nav-link' do %>
                 <i class="fa fa-plus-circle"></i>
@@ -26,7 +26,7 @@
                 <% end %>
               </li>
               <li class="nav-item">
-                <a class="nav-link navbar-toggler-right" href="#">Dashboard</a>
+                <%= link_to 'Sign in', new_user_registration_path, class: 'nav-link navbar-toggler-right sign-button' %>
               </li>
             </ul>
           </div>
