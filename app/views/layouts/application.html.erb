@@ -16,26 +16,28 @@
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <%= link_to 'NomView', root_path, class: 'navbar-brand' %>
+          <a href="/"><%= image_tag("NomView.png")%></a>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-md-0">
               <li class="nav-item">
                 <%= link_to 'New Place', new_place_path, class: 'nav-link' %>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Dashboard</a>
+                <a class="nav-link navbar-toggler-right" href="#">Dashboard</a>
               </li>
             </ul>
           </div>
         </nav>
+        <br />
+        <br />
         <%= yield %>
       </div>
 
     <footer>
       <div class="footer-container">
-        <i>Twiter</i>
+        <a href="https://github.com/luis-codes" target="_blank"><%= fa_icon "github" %></a>
         <i>&copy;2020</i>
-        <i>Instagram</i>
+        <a href="https://www.instagram.com/luis.thagreat/" target="_blank"><%= fa_icon "instagram" %></a>
         <span class="heart-emoji">Made with &#128151</span>
       </div>
     </footer>

@@ -70,3 +70,4 @@ end
 gem 'jquery-rails', '~> 4.4'
 gem 'simple_form', '~> 5.0', '>= 5.0.3'
 gem 'kaminari', '~> 1.2', '>= 1.2.1'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'

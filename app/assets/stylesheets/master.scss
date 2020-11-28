@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px #d0d0d0;
   box-shadow: 1px 1px 2px #d0d0d0;
-  background: #24272b;
+  background: #292b2c;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   margin-top: 10px;
@@ -34,20 +34,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
   box-shadow: 0px 1px 3px #2a2a2a;
-}
-
-.navbar-brand {
-  background: -webkit-linear-gradient(#62b8f5, #555);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 600;
-  letter-spacing: -0.3px;
-}
-
-.content {
-  min-height: 100%;
-
 }
 
 footer{
@@ -66,7 +52,14 @@ footer{
 footer i {
   margin: 0 10px;
   font-size: 1.3rem;
+  color: #ccc;
+  cursor: crosshair;
 }
+
+footer i:hover {
+  transform: scale(1.5);
+}
+
 
 .heart-emoji {
   font-size: 0.6rem;
@@ -75,6 +68,21 @@ footer i {
   margin-top: 46px;
 }
 
-/*.pagination {
-  border: 1px black solid;
+.page-link {
+  background-color: #292b2c;
+  color: #fff;
+}
+
+.page-item.active {
+  background-color: #292b2c
+}
+
+img {
+  height: 100px;
+}
+
+/*footer > div > a {
+  color: #ccc;
+  font-size: 1.3rem;
 }*/
+
